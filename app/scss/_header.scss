@@ -1,0 +1,73 @@
+.header {
+    background: url('../images/home/home-bg.jpg') no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    color: #fff;
+}
+.header__inner {
+    margin-bottom: 16.8rem;
+    padding-top: 4.2rem;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    display: block;
+    width: 18.3rem;
+    height: 6.4rem;
+    font-size: 2rem;
+    color: #000;
+    line-height: 6.4rem;
+    text-align: center;
+    background-color: #fff;
+}
+.menu {
+    margin-left: 12.8rem;
+}
+.menu__list {
+    display: flex;
+    gap: 3rem;
+}
+.menu__list-link {
+    font-size: 2rem;
+}
+.menu__list-item--active{
+    border-bottom: 2px solid #3467CD;
+}
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: 12.8rem;
+}
+.header__wrapper-language {
+    position: relative;
+    font-size: 1.8rem;
+}
+.header__wrapper-language::before{
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 40px;
+    background: url('../images/home/russia.svg') no-repeat;
+    top: -5px;
+    left: -42px;
+}
+.header__wrapper-btn {
+    margin-left: 1.3rem;
+    width: 22rem;
+    height: 5.3rem;
+    line-height: 5.3rem;
+}
+.header__wrapper-btn:hover{
+    transition: all .4s ease-in;
+    background: #0f3174;
+}
+.header__title {
+    max-width: 89rem;
+    margin-bottom: 2.4rem;
+    font-size: 7rem;
+    font-weight: 600;
+}
+.header__text {
+    max-width: 78rem;
+    font-weight: 500;
+}

@@ -5,8 +5,11 @@ body {
 	flex-direction: column;/*sticky footer*/
 	margin: 0;
 	scroll-behavior: smooth;
-	font-family: '';
+	font-family: 'Montserrat';
 	font-weight: 400;
+	font-size: 2.5rem;
+	color: #000;
+	line-height: normal;
  }
 html{
 	font-size: 10px;
@@ -22,8 +25,28 @@ button{
 	cursor: pointer;
 }
 .container{
-	max-width: 137rem;
+	max-width: 172.3rem;
 	margin: 0 auto;
 	padding-left: 1.5rem;
 	padding-right: 1.5rem;
+}
+
+.subtitle{
+	margin-bottom: 1rem;
+	color: rgba(0, 0, 0, 0.57);
+	font-size: 3rem;
+	font-weight: 500;
+}
+.title{
+	font-size: 3.5rem;
+	font-weight: 500;
+}
+.button{
+	border-radius: 10px;
+	background: #3467CD;
+	color: #fff;
+	text-align: center;
+	border: none;
+	font-size: 2rem;
+	transition: all .4s ease-in;
 }

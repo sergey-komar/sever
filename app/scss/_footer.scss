@@ -1,0 +1,118 @@
+.footer {
+    padding-top: 8.1rem;
+    padding-bottom: 3.2rem;
+    background: #333;
+    color: #fff;
+}
+.container {
+}
+.footer__inner {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 19.7rem;
+}
+.footer__menu {
+    width: 15rem;
+    font-size: 1.4rem;  
+}
+.footer__menu-title{
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+.footer__list {
+}
+.footer__menu-item {
+    margin-bottom: 1rem;
+}
+.footer__menu-link {
+    line-height: 20px;
+}
+.footer__menu-link--active {
+    color: #3467CD;
+}
+.footer__social {
+   width: 19rem;
+   margin-left: 16.5rem;
+}
+.footer__social-title{
+    margin-bottom: 2rem;
+    font-size: 1.4rem;  
+    text-transform: uppercase;
+}
+.footer__social-wrapper {
+    display: flex;
+    gap: 2rem;
+}
+.footer__social-link {
+}
+.footer__email {
+    max-width: 58rem;
+    margin-left: 14rem;
+}
+.footer__email-title {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;  
+    text-transform: uppercase;
+}
+.footer__email-text {
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+}
+.footer__form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.6rem 3rem;
+    height: 5.2rem;
+    border-radius: 8px;
+    border: 1px solid #E5E7EB;
+    background: #F9FAFB;
+}
+.footer__form-input {
+    border: none;
+    background-color: transparent;
+    font-size: 1.4rem;
+    line-height: 14px;
+    outline: none;
+}
+.footer__form-input::placeholder{
+    font-size: 1.4rem;
+    color: #52503B;
+}
+.footer__form-btn {
+    width: 11.6rem;
+    height: 3rem;
+    line-height: 2rem;
+    font-size: 1.4rem;
+}
+.button {
+}
+.footer_copyright {
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.footer__contact {
+    display: flex;
+    justify-content: center;
+    gap: 2.2rem;
+    font-size: 1.4rem;
+}
+.footer__contact-phone,
+.footer__contact-email {
+    position: relative;
+}
+.footer__contact-phone::after,
+.footer__contact-email::after{
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 1px;
+    background-color: #fff;
+    top: 9px;
+    right: -16px;
+}
+.footer__contact-email {
+}
+.footer__contact-addres {
+}

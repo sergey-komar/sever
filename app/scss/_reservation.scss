@@ -1,0 +1,87 @@
+.reservation {
+    padding-top: 8.3rem;
+    padding-bottom: 18rem;
+}
+.reservation__title {
+    margin-bottom: 9.1rem;
+}
+.reservation__title--one{
+    padding-top: 4rem;
+}
+.reservation__text {
+    max-width: 93rem;
+    margin-bottom: 3rem;
+}
+.reservation-box {
+    margin-top: 4rem;
+    margin-bottom: 8.6rem;
+    display: flex;
+    gap: 4rem;
+}
+.reservation-box__item {
+    width: 33%;
+}
+.reservation-box__item-img {
+    margin-bottom: 2.6rem;
+}
+.reservation-box__item-title {
+    margin-bottom: 2.6rem;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.reservation-box__item-text {
+    margin-bottom: 3.1rem;
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.61);
+}
+.reservation-box__item-link {
+    font-weight: 500;
+    color: #3467CD;
+    border-bottom: 2px solid #3467CD;
+}
+.reservation-form__inner {
+    margin-bottom: 8.6rem;
+    display: flex;
+    gap: 13rem;
+}
+.reservation-form__title {
+    margin-bottom: 8.2rem;
+    color: rgba(0, 0, 0, 0.55);
+}
+.reservation-form__item {
+    width: 30rem;
+}
+.reservation-form__item-title {
+    margin-bottom: 4.2rem;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.reservation-form__item-input {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #000;
+}
+.reservation-form__item-input input{
+    border: none;
+    background-color: transparent;
+}
+.reservation-form__price {
+    margin-top: 14rem;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.55);
+}
+.reservation-form__price span{
+    color: #3467CD;
+}
+.reservation-form__text {
+    margin-bottom: 6rem;
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.55);
+}
+.reservation-form__btn {
+    width: 29rem;
+    height: 5.9rem;
+    margin-bottom: 1rem;
+    line-height: 5.9rem;
+}

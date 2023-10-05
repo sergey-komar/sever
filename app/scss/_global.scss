@@ -30,7 +30,12 @@ button{
 	padding-left: 1.5rem;
 	padding-right: 1.5rem;
 }
-
+.container-slider{
+	max-width: 172.3rem;
+	margin: 0 0 0 auto;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
 .subtitle{
 	margin-bottom: 1rem;
 	color: rgba(0, 0, 0, 0.57);
@@ -38,8 +43,18 @@ button{
 	font-weight: 500;
 }
 .title{
+	position: relative;
 	font-size: 3.5rem;
 	font-weight: 500;
+}
+.title::before{
+	position: absolute;
+	content: '';
+	width: 124px;
+	height: 3px;
+	bottom: 0;
+	left: 0;
+	background: #3467CD;
 }
 .button{
 	border-radius: 10px;
@@ -49,4 +64,8 @@ button{
 	border: none;
 	font-size: 2rem;
 	transition: all .4s ease-in;
+}
+.button:hover{
+	transition: all .4s ease-in;
+    background: #0f3174;
 }

@@ -1,0 +1,39 @@
+.contact {
+    padding-top: 8.3rem;
+    padding-bottom: 8.6rem;
+}
+.contact__title {
+    margin-bottom: 9.2rem;
+}
+.contact-block {
+    margin-bottom: 10.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-block__item {
+    width: 33%;
+}
+.contact-block__wrapper {
+    margin-bottom: 5.2rem;
+}
+.contact-block__item-text {
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.57);
+}
+.contact-block__item-link {
+    font-weight: 500;
+}
+.contact-box {
+    display: flex;
+    gap: 4rem;
+}
+.contact-box__img img{
+    object-fit: cover;
+    width: 60rem;
+    height: 39rem;
+}
+.contact-box__video iframe{
+    width: 60rem;
+    height: 100%;
+}
